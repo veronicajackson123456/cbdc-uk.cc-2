@@ -3,6 +3,7 @@ import { ArrowRight, BookOpen, Globe2, Landmark, ShieldCheck } from "lucide-reac
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { VideoSection } from "@/components/video-embed"
+import { LeicesterMerchAd } from "@/components/leicester-merch-ad"
 import { fetchCurrencies } from "@/lib/cbdc-api"
 import { getMappedCountryNames } from "@/lib/country-map"
 
@@ -140,6 +141,8 @@ export default async function HomePage() {
           </Card>
         </div>
       </section>
+
+      <LeicesterMerchAd />
 
       <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
         <VideoSection title="What exactly is a digital euro?" videoId="oknlcw4Ix7Q" source="Council of the EU" duration="1:17" />
