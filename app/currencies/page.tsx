@@ -5,7 +5,7 @@ import { CurrencyTable } from "@/components/currency-table"
 export const revalidate = 300
 
 export const metadata = {
-  title: "Currencies — CBDC LLC",
+  title: "Currencies — CBDC LTD",
   description: "Browse every tracked Central Bank Digital Currency initiative worldwide.",
 }
 

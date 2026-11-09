@@ -3,8 +3,8 @@ import { ArrowRight, BookOpen, FileText, Mail, ShieldCheck } from "lucide-react"
 import { legalCentreCategories, legalDocuments } from "@/lib/legal-content"
 
 export const metadata = {
-  title: "Legal Centre | CBDC LLC",
-  description: "Policies, standards, and practical information about using CBDC LLC research resources.",
+  title: "Legal Centre | CBDC LTD",
+  description: "Policies, standards, and practical information about using CBDC LTD research resources.",
 }
 
 export default function LegalCentrePage() {
@@ -13,7 +13,7 @@ export default function LegalCentrePage() {
       <header className="max-w-3xl">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-primary">Trust & transparency</p>
         <h1 className="mt-3 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">Legal Centre</h1>
-        <p className="mt-5 text-lg leading-8 text-muted-foreground">A clear home for the policies and standards that guide CBDC LLC research, publishing, accessibility, and use of this information resource.</p>
+        <p className="mt-5 text-lg leading-8 text-muted-foreground">A clear home for the policies and standards that guide CBDC LTD research, publishing, accessibility, and use of this information resource.</p>
       </header>
       <div className="mt-10 grid gap-4 md:grid-cols-3">
         <div className="rounded-xl border border-border bg-card p-5"><BookOpen className="size-5 text-primary" aria-hidden="true" /><h2 className="mt-4 font-semibold text-foreground">Plain language</h2><p className="mt-2 text-sm leading-6 text-muted-foreground">Practical explanations of how the service works and what its content means.</p></div>

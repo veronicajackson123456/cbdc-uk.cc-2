@@ -10,9 +10,9 @@ import { SponsorSection } from "@/components/sponsor-section"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata: Metadata = {
-  title: "About CBDC LLC",
+  title: "About CBDC LTD",
   description:
-    "CBDC LLC is an independent digital-currency research and information company. We publish plain-English guides, country and project trackers, and updates.",
+    "CBDC LTD is an independent digital-currency research and information company. We publish plain-English guides, country and project trackers, and updates.",
 }
 
 const sectionLinks = [
@@ -29,7 +29,7 @@ const services = [
   {
     title: "Research and information",
     description:
-      "CBDC LLC operates an independent digital-currency research and information website. Our main services are educational articles, research, and searchable tracking information about central bank digital currencies.",
+      "CBDC LTD operates an independent digital-currency research and information website. Our main services are educational articles, research, and searchable tracking information about central bank digital currencies.",
     Icon: BookOpenText,
   },
   {
@@ -41,7 +41,7 @@ const services = [
   {
     title: "Funding",
     description:
-      "CBDC LLC offers display advertising and sponsored content as commercial opportunities. Sponsored material is clearly labelled, and advertising or sponsorship does not determine or influence tracker classifications, status assessments, or research conclusions.",
+      "CBDC LTD offers display advertising and sponsored content as commercial opportunities. Sponsored material is clearly labelled, and advertising or sponsorship does not determine or influence tracker classifications, status assessments, or research conclusions.",
     Icon: CircleDollarSign,
   },
 ]
@@ -49,9 +49,9 @@ const services = [
 export default function AboutPage() {
   return (
     <ContentPage
-      eyebrow="About CBDC LLC"
+      eyebrow="About CBDC LTD"
       title="Who we are"
-      intro="CBDC LLC is an independent digital-currency research and information company. We research central bank digital currency developments and publish plain-English guides, country and project trackers, and updates explaining what these developments may mean for individuals and businesses."
+      intro="CBDC LTD is an independent digital-currency research and information company. We research central bank digital currency developments and publish plain-English guides, country and project trackers, and updates explaining what these developments may mean for individuals and businesses."
     >
       <nav aria-label="About page sections" className="flex flex-wrap gap-2">
         {sectionLinks.map((link) => (
@@ -70,7 +70,7 @@ export default function AboutPage() {
           <InfoCard label={companyDetails.founderTitle} title={companyDetails.founderName}>
             <div className="space-y-4">
               <p>
-                Tristan Marsh is the founder and managing member of CBDC LLC. He established the company to create a clear, independent public resource on central bank digital currencies at a time when official explanations were often technical and fragmented.
+                Tristan Marsh is the founder and managing member of CBDC LTD. He established the company to create a clear, independent public resource on central bank digital currencies at a time when official explanations were often technical and fragmented.
               </p>
               <p>
                 He oversees the research direction, editorial standards and day-to-day operation of the CBDC World Tracker and related guides. His focus is on translating complex policy and technical developments into plain-English material that individuals, businesses and journalists can use without specialised knowledge.
@@ -86,7 +86,7 @@ export default function AboutPage() {
       <div id="ubo" className="scroll-mt-24">
         <ContentSection title="Ultimate Beneficial Owner (UBO)">
           <p>
-            Tristan Marsh is the ultimate beneficial owner of CBDC LLC and serves as its Founder and Managing Member.
+            Tristan Marsh is the ultimate beneficial owner of CBDC LTD and serves as its Founder and Managing Member.
           </p>
         </ContentSection>
       </div>
@@ -111,27 +111,17 @@ export default function AboutPage() {
               <dd className="text-sm font-medium text-foreground">{companyDetails.name}</dd>
             </div>
             <div className="grid gap-1 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
-              <dt className="text-xs font-medium text-muted-foreground">Company / Filing ID</dt>
-              <dd className="text-sm font-medium text-foreground">{companyDetails.filingId}</dd>
+              <dt className="text-xs font-medium text-muted-foreground">Company number</dt>
+              <dd className="text-sm font-medium text-foreground">{companyDetails.companyNumber}</dd>
             </div>
             <div className="grid gap-1 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
               <dt className="text-xs font-medium text-muted-foreground">Founder and Managing Member</dt>
               <dd className="text-sm font-medium text-foreground">{companyDetails.founderName}</dd>
             </div>
             <div className="grid gap-1 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
-              <dt className="text-xs font-medium text-muted-foreground">Registered address</dt>
+              <dt className="text-xs font-medium text-muted-foreground">Registered office</dt>
               <dd className="text-sm leading-6 text-foreground">
-                {companyDetails.registeredAddress.line1}
-                <br />
-                {companyDetails.registeredAddress.line2}
-              </dd>
-            </div>
-            <div className="grid gap-1 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">
-              <dt className="text-xs font-medium text-muted-foreground">Operating address</dt>
-              <dd className="text-sm leading-6 text-foreground">
-                {companyDetails.operatingAddress.line1}
-                <br />
-                {companyDetails.operatingAddress.line2}
+                {companyDetails.registeredOffice}
               </dd>
             </div>
             <div className="grid gap-1 py-4 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6">

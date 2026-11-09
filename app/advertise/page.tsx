@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 import { companyDetails } from "@/lib/company-details"
 
 export const metadata: Metadata = {
-  title: "Advertise or Sponsor — CBDC LLC",
+  title: "Advertise or Sponsor — CBDC LTD",
   description:
-    "Request a quote for display advertising, clearly labelled sponsored articles, and custom sponsorship packages from CBDC LLC.",
+    "Request a quote for display advertising, clearly labelled sponsored articles, and custom sponsorship packages from CBDC LTD.",
 }
 
 const opportunities = [
@@ -36,19 +36,19 @@ const advertiserTerms = [
     label: "Content standards",
     title: "Accurate, lawful and relevant",
     description:
-      "Advertising and sponsored material must be lawful, accurate, substantiated, rights-cleared and appropriate for an independent information resource. CBDC LLC may request supporting evidence and may decline or remove material that is misleading, unlawful or unsuitable.",
+      "Advertising and sponsored material must be lawful, accurate, substantiated, rights-cleared and appropriate for an independent information resource. CBDC LTD may request supporting evidence and may decline or remove material that is misleading, unlawful or unsuitable.",
   },
   {
     label: "Prohibited advertisers and content",
     title: "Businesses and campaigns we do not accept",
     description:
-      "1. CBDC LLC does not accept advertising or sponsorship that promotes, or comes from a business whose main activity is: a. the issue, sale, exchange, custody or promotion of cryptoassets, tokens, stablecoins, NFTs or initial coin offerings; b. investment schemes, trading signals, high-yield or guaranteed-return products, or binary options and similar speculative products; c. financial promotions that have not been approved or made by a person authorised to do so under the law of the place where they are shown; d. gambling, betting or lotteries; e. payday loans, debt-relief schemes or credit repair; f. adult content, weapons, tobacco, vaping or illegal drugs; or g. anything that suggests endorsement by, or affiliation with, a central bank, government or public authority. 2. CBDC LLC does not accept advertising or sponsorship from, or for the benefit of, any person or entity subject to sanctions administered by the United Nations, the United States (OFAC), the United Kingdom or the European Union, or located in a comprehensively sanctioned country or territory. 3. CBDC LLC carries out identity and sanctions checks on advertisers and sponsors before accepting any campaign. It may request company registration documents and details of beneficial ownership. 4. Advertising and sponsorship fees are paid only by bank transfer or card from an account in the advertiser's own name. CBDC LLC does not accept payment in cryptoassets or from third parties. 5. CBDC LLC may decline or withdraw any advertising or sponsorship at its sole discretion.",
+      "1. CBDC LTD does not accept advertising or sponsorship that promotes, or comes from a business whose main activity is: a. the issue, sale, exchange, custody or promotion of cryptoassets, tokens, stablecoins, NFTs or initial coin offerings; b. investment schemes, trading signals, high-yield or guaranteed-return products, or binary options and similar speculative products; c. financial promotions that have not been approved or made by a person authorised to do so under the law of the place where they are shown; d. gambling, betting or lotteries; e. payday loans, debt-relief schemes or credit repair; f. adult content, weapons, tobacco, vaping or illegal drugs; or g. anything that suggests endorsement by, or affiliation with, a central bank, government or public authority. 2. CBDC LTD does not accept advertising or sponsorship from, or for the benefit of, any person or entity subject to sanctions administered by the United Nations, the United States (OFAC), the United Kingdom or the European Union, or located in a comprehensively sanctioned country or territory. 3. CBDC LTD carries out identity and sanctions checks on advertisers and sponsors before accepting any campaign. It may request company registration documents and details of beneficial ownership. 4. Advertising and sponsorship fees are paid only by bank transfer or card from an account in the advertiser's own name. CBDC LTD does not accept payment in cryptoassets or from third parties. 5. CBDC LTD may decline or withdraw any advertising or sponsorship at its sole discretion.",
   },
   {
     label: "Disclosure and independence",
     title: "Readers can identify paid content",
     description:
-      "Paid content will carry a clear Sponsored or Advertisement label and identify the sponsor. Advertisers cannot buy or direct tracker classifications, status assessments, research methodology or editorial conclusions. CBDC LLC retains editorial control.",
+      "Paid content will carry a clear Sponsored or Advertisement label and identify the sponsor. Advertisers cannot buy or direct tracker classifications, status assessments, research methodology or editorial conclusions. CBDC LTD retains editorial control.",
   },
   {
     label: "Review and approval",
@@ -69,7 +69,7 @@ export default function AdvertisePage() {
     <ContentPage
       eyebrow="Commercial opportunities"
       title="Advertise or Sponsor"
-      intro="CBDC LLC offers display advertising, clearly labelled sponsored content, and custom sponsorship packages to organizations whose products or services are relevant to our readers. Request a quote for availability and terms."
+      intro="CBDC LTD offers display advertising, clearly labelled sponsored content, and custom sponsorship packages to organizations whose products or services are relevant to our readers. Request a quote for availability and terms."
     >
       <ContentSection title="Rate card">
         <p>
@@ -116,7 +116,7 @@ export default function AdvertisePage() {
 
       <ContentSection title="Commercial enquiries">
         <p>
-          To discuss a proposal, email {companyDetails.email}. CBDC LLC will review the request and confirm any accepted scope, pricing, approvals and payment arrangements in writing.
+          To discuss a proposal, email {companyDetails.email}. CBDC LTD will review the request and confirm any accepted scope, pricing, approvals and payment arrangements in writing.
         </p>
         <Button
           className="mt-4"

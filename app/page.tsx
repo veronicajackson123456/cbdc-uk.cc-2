@@ -48,7 +48,7 @@ const stats = [
 export const revalidate = 300
 
 export const metadata = {
-  title: "CBDC LLC | Plain-English Digital Currency Intelligence",
+  title: "CBDC LTD | Plain-English Digital Currency Intelligence",
   description: "Independent, plain-English information about central bank digital currencies and where each programme stands.",
 }
 
@@ -65,13 +65,13 @@ export default async function HomePage() {
           <div className="flex flex-col items-start justify-center">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1.5 text-xs font-medium text-primary">
               <Landmark className="size-3.5" />
-              CBDC LLC · independent information resource
+              CBDC LTD · independent information resource
             </span>
             <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-6xl">
               Your plain guide to digital central bank money.
             </h1>
             <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              A central bank digital currency is a digital form of a country&apos;s official money, issued directly by its central bank. CBDC LLC explains what they are, where each country stands, and what the shift could mean for you, your savings, and your business.
+              A central bank digital currency is a digital form of a country&apos;s official money, issued directly by its central bank. CBDC LTD explains what they are, where each country stands, and what the shift could mean for you, your savings, and your business.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" render={<Link href="/tracker" />} nativeButton={false}>
@@ -108,7 +108,7 @@ export default async function HomePage() {
               </div>
               <div className="mt-5 border-t border-border/70 pt-4">
                 <p className="text-xs leading-relaxed text-muted-foreground">
-                  The Atlantic Council figure is an external country-and-currency-union benchmark, not CBDC LLC&apos;s
+                  The Atlantic Council figure is an external country-and-currency-union benchmark, not CBDC LTD&apos;s
                   count of individually tracked project records. “Exploring” includes different stages and does not
                   mean every jurisdiction is running a live pilot or has launched a CBDC.
                 </p>

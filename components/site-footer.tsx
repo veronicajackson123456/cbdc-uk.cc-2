@@ -19,7 +19,7 @@ export function SiteFooter() {
               <div className="flex min-w-0 flex-wrap items-baseline gap-x-2 gap-y-0.5">
                 <p className="text-sm font-semibold text-foreground">{companyDetails.name}</p>
                 <p className="font-mono text-xs text-muted-foreground">
-                  Company / Filing ID: {companyDetails.filingId}
+                  Company number: {companyDetails.companyNumber}
                 </p>
               </div>
             </div>
@@ -29,22 +29,8 @@ export function SiteFooter() {
                 <MapPin className="size-4 text-primary" />
               </span>
               <address className="not-italic text-sm leading-6 text-muted-foreground">
-                <span className="mb-1 block text-xs font-medium tracking-wide text-foreground">Registered address</span>
-                {companyDetails.registeredAddress.line1}
-                <br />
-                {companyDetails.registeredAddress.line2}
-              </address>
-            </div>
-
-            <div className="flex items-start gap-3">
-              <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-secondary" aria-hidden="true">
-                <MapPin className="size-4 text-primary" />
-              </span>
-              <address className="not-italic text-sm leading-6 text-muted-foreground">
-                <span className="mb-1 block text-xs font-medium tracking-wide text-foreground">Operating address</span>
-                {companyDetails.operatingAddress.line1}
-                <br />
-                {companyDetails.operatingAddress.line2}
+                <span className="mb-1 block text-xs font-medium tracking-wide text-foreground">Registered office</span>
+                {companyDetails.registeredOffice}
               </address>
             </div>
 
@@ -78,7 +64,7 @@ export function SiteFooter() {
             <p className="max-w-2xl">{independentResourceDisclaimer}</p>
             <p className="max-w-2xl font-medium text-foreground">{nonIssuerDisclaimer}</p>
             <p className="mt-1 border-t border-border pt-3 font-mono text-xs text-muted-foreground">
-              © 2026 CBDC LLC
+              © 2026 CBDC LTD
             </p>
           </div>
         </div>

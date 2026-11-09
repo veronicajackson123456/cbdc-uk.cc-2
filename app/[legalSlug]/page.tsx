@@ -10,7 +10,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ legalSlug: string }> }): Promise<Metadata> {
   const { legalSlug } = await params
   const document = getLegalDocument(legalSlug)
-  return document ? { title: `${document.title} | CBDC LLC`, description: document.description } : {}
+  return document ? { title: `${document.title} | CBDC LTD`, description: document.description } : {}
 }
 
 export default async function PolicyPage({ params }: { params: Promise<{ legalSlug: string }> }) {

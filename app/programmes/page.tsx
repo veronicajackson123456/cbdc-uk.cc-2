@@ -5,7 +5,7 @@ export default function ProgrammesAliasPage() {
 }
 
 export const metadata = {
-  title: "Programmes to Watch | CBDC LLC",
+  title: "Programmes to Watch | CBDC LTD",
 }
 
 export const dynamic = "force-static"

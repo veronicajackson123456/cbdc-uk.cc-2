@@ -1,4 +1,4 @@
-import { companyContactDetails } from "@/lib/company-details"
+import { companyContactDetails, companyDetails } from "@/lib/company-details"
 
 export type LegalSection = {
   heading: string
@@ -22,11 +22,11 @@ export const legalDocuments: LegalDocument[] = [
   {
     slug: "privacy",
     title: "Privacy Policy",
-    description: "How CBDC LLC handles personal information when you browse the Site or contact us.",
+    description: "How CBDC LTD handles personal information when you browse the Site or contact us.",
     category: "Privacy and data",
     lastUpdated: "28 October 2026",
     sections: [
-      { heading: "Who we are", paragraphs: ["This policy explains how CBDC LLC (\"we\", \"us\") handles personal information when you visit cbdc.ac (the \"Site\") or contact us.", "CBDC LLC is a Wyoming limited liability company, Filing ID 2026-002064943. Registered address: 5830 E 2nd St, Ste 7000 #38378, Casper, WY 82609, USA. Operating address: 1875 Mission Street, Ste 103, San Francisco, CA 94103, USA.", "We are the controller of the personal information described in this policy. You can contact us about privacy at info@cbdc.ac."] },
+      { heading: "Who we are", paragraphs: ["This policy explains how CBDC LTD (\"we\", \"us\") handles personal information when you visit cbdc.ac (the \"Site\") or contact us.", `${companyDetails.legalDescription}. Registered office: ${companyDetails.registeredOffice}.`, "We are the controller of the personal information described in this policy. You can contact us about privacy at info@cbdc.ac."] },
       { heading: "Information we collect", paragraphs: ["When you email us, we receive your email address, any name you give, the content of your message and any attachments.", "When you browse the Site, our hosting provider automatically processes technical information needed to deliver and protect the Site, including your IP address, browser and device type, pages requested, referring page, and date and time of your visit.", "We use privacy-focused analytics that count page views and report aggregate information such as referring sites, device type, browser and approximate country. These analytics do not use cookies and do not identify you personally.", "The Site has no user accounts, sign-in, newsletter or contact form. We do not ask for payment details. We do not knowingly collect special category data, and we ask that you do not send it to us."] },
       { heading: "How we use your information", paragraphs: ["We use personal information only to:"], bullets: ["Reply to your enquiries, including correction, accessibility and commercial enquiries.", "Deliver, secure, maintain and fix the Site.", "Understand, in aggregate, how the Site is used so we can improve it.", "Comply with our legal obligations and protect our rights."], paragraphsAfterBullets: ["We do not use your information for automated decision-making or profiling."] },
       { heading: "Legal bases (UK and EU visitors)", paragraphs: ["Where the UK GDPR or EU GDPR applies, we rely on legitimate interests in responding to enquiries and operating, securing and improving the Site; contract where you contact us about advertising or sponsorship and we take steps towards an agreement; legal obligation where we must keep or disclose information by law; and consent where we ask for it, such as before loading embedded video. You can withdraw consent at any time."] },
@@ -39,13 +39,13 @@ export const legalDocuments: LegalDocument[] = [
       { heading: "Your rights", paragraphs: ["Depending on where you live, you may have the right to access, correct, delete, restrict or object to our use of personal information, receive a copy in a portable format, and withdraw consent where we rely on it.", "California residents have the right to know, delete and correct personal information, and to opt out of its sale or sharing. We do not sell or share personal information. We will not discriminate against you for exercising your rights.", "To exercise a right, email info@cbdc.ac and tell us which right and what information it concerns. We may need to verify your identity. We will respond within the time required by applicable law. You can complain to your data protection regulator. In the UK this is the Information Commissioner's Office (ico.org.uk); in the EU it is the supervisory authority in your country. We would appreciate the chance to deal with your concern first."] },
       { heading: "Children", paragraphs: ["The Site is a general information resource and is not directed at children under 16. We do not knowingly collect their personal information. If you believe a child has sent us information, contact info@cbdc.ac and we will delete it."] },
       { heading: "Changes to this policy", paragraphs: ["We may update this policy when our services or the law change. The Last updated date at the top shows when it was last revised. Significant changes will be highlighted on this page."] },
-      { heading: "Contact", paragraphs: ["CBDC LLC, 1875 Mission Street, Ste 103, San Francisco, CA 94103, USA. Email: info@cbdc.ac."] },
+      { heading: "Contact", paragraphs: [contact] },
     ],
   },
   {
     slug: "terms",
     title: "Terms of Use",
-    description: "The rules for using the information, research, and tools provided by CBDC LLC.",
+    description: "The rules for using the information, research, and tools provided by CBDC LTD.",
     category: "Website terms",
     lastUpdated: "28 October 2026",
     sections: [
@@ -54,7 +54,7 @@ export const legalDocuments: LegalDocument[] = [
       { heading: "Your responsibilities", bullets: ["Use the service in compliance with applicable law.", "Do not attempt unauthorised access, interference, probing, or circumvention of security controls.", "Do not submit malicious code, unlawful material, or another person’s personal information without authority.", "Do not make abusive or disproportionate automated requests."] },
       { heading: "Content and availability", paragraphs: ["Research is prepared from public and third-party sources and may contain errors, omissions, delays, or classifications that change as evidence develops. We may update, suspend, or remove features without guaranteeing uninterrupted availability."] },
       { heading: "Intellectual property and external resources", paragraphs: ["Original content and presentation belong to their respective rights holders. Third-party names, marks, data, and linked material remain the property of their owners. External resources are provided for convenience and are not controlled or endorsed merely because they are referenced."] },
-      { heading: "Governing law and venue", paragraphs: ["These Terms and any non-contractual obligations arising from them are governed by the laws of the State of Wyoming, United States, without regard to its conflict-of-laws rules, except to the extent mandatory law in your jurisdiction applies.", "Subject to mandatory law, you and CBDC LLC agree to the exclusive jurisdiction and venue of the state and federal courts of competent jurisdiction located in Wyoming for disputes arising out of or related to these Terms or the service. Nothing in this clause limits a right or remedy that cannot lawfully be waived."] },
+      { heading: "Governing law and venue", paragraphs: ["These Terms and any non-contractual obligations arising from them are governed by the laws of the State of Wyoming, United States, without regard to its conflict-of-laws rules, except to the extent mandatory law in your jurisdiction applies.", "Subject to mandatory law, you and CBDC LTD agree to the exclusive jurisdiction and venue of the state and federal courts of competent jurisdiction located in Wyoming for disputes arising out of or related to these Terms or the service. Nothing in this clause limits a right or remedy that cannot lawfully be waived."] },
       { heading: "Changes and contact", paragraphs: ["We may revise these terms when the service or legal requirements change. The latest version will be published on this page. Questions may be sent to info@cbdc.ac."] },
     ],
   },
@@ -68,7 +68,7 @@ export const legalDocuments: LegalDocument[] = [
       {
         heading: "How this site uses cookies and browser storage",
         paragraphs: [
-          "CBDC LLC does not set cookies for analytics or advertising. The Site has no account or sign-in system.",
+          "CBDC LTD does not set cookies for analytics or advertising. The Site has no account or sign-in system.",
           "If you use the Watchlist, your selected projects are saved in your browser's local storage. This stays on your device and is not sent to us. You can remove it by clearing the Site's data in your browser.",
           "Vercel Analytics is cookieless and reports aggregate information about visits and page views, such as referring sites, device type, browser and approximate country. It does not identify you personally.",
         ],
@@ -92,16 +92,16 @@ export const legalDocuments: LegalDocument[] = [
       },
     ],
   },
-  { slug: "disclaimer", title: "Disclaimer", description: "Important limits on the use of CBDC LLC research and educational material.", category: "Website terms", sections: [
+  { slug: "disclaimer", title: "Disclaimer", description: "Important limits on the use of CBDC LTD research and educational material.", category: "Website terms", sections: [
     { heading: "General information only", paragraphs: ["The content is provided for education and general information. It does not constitute financial, investment, legal, tax, accounting, monetary-policy, or other professional advice, and it is not an offer or recommendation to buy, sell, hold, or use any financial product or service."] },
     { heading: "Accuracy and currency", paragraphs: ["We aim to present useful, attributed information, but public programmes change and source material can be incomplete, conflicting, translated, delayed, or withdrawn. A status, date, classification, or link should be independently checked before being used for a decision."] },
-    { heading: "No affiliation", paragraphs: ["CBDC LLC is an independent information resource and is not affiliated with any central bank or government. References to organisations, products, programmes, or providers do not imply endorsement."] },
-    { heading: "Use at your own judgement", paragraphs: ["You are responsible for assessing whether information is suitable for your circumstances and for obtaining professional advice when needed. To the extent permitted by law, CBDC LLC is not responsible for decisions made solely from general information on the service."] },
+    { heading: "No affiliation", paragraphs: ["CBDC LTD is an independent information resource and is not affiliated with any central bank or government. References to organisations, products, programmes, or providers do not imply endorsement."] },
+    { heading: "Use at your own judgement", paragraphs: ["You are responsible for assessing whether information is suitable for your circumstances and for obtaining professional advice when needed. To the extent permitted by law, CBDC LTD is not responsible for decisions made solely from general information on the service."] },
   ] },
   { slug: "research-methodology", title: "Research Methodology", description: "How the tracker approaches sources, classifications, updates, and uncertainty.", category: "Research and editorial", sections: [
     { heading: "Purpose", paragraphs: ["The tracker organises publicly available information about central bank digital currency initiatives so readers can compare broad stages and follow meaningful changes. It is a research aid, not an official registry."] },
     { heading: "Sources and verification", paragraphs: ["Sources may include official central bank, government, legislative, programme, technical, academic, and reputable reporting materials. We seek primary material where available, compare significant claims, record source links, and avoid treating a single unverified statement as conclusive."] },
-    { heading: "External benchmarks and tracker totals", paragraphs: ["Atlantic Council country and currency-union figures are external benchmarks for the date stated by that source. They are not CBDC LLC’s count of individually tracked project records. The term ‘exploring’ covers multiple stages and should not be read as a live pilot or launch.", "Tracker totals are calculated from unique project tags in the connected live API feed. Status totals apply to project records. The map resolves joint project labels into unique country and territory names and excludes recognized currency-union or regional labels from that map-name count. External country and currency-union benchmarks use a different scope. We do not change records or classifications merely to force totals to match."] },
+    { heading: "External benchmarks and tracker totals", paragraphs: ["Atlantic Council country and currency-union figures are external benchmarks for the date stated by that source. They are not CBDC LTD’s count of individually tracked project records. The term ‘exploring’ covers multiple stages and should not be read as a live pilot or launch.", "Tracker totals are calculated from unique project tags in the connected live API feed. Status totals apply to project records. The map resolves joint project labels into unique country and territory names and excludes recognized currency-union or regional labels from that map-name count. External country and currency-union benchmarks use a different scope. We do not change records or classifications merely to force totals to match."] },
     { heading: "Classifications", paragraphs: ["Labels such as Research, Proof of concept, Pilot, Launched, and Cancelled are editorial classifications based on the available evidence. They simplify different national terminology and should not be read as legal or official designations."] },
     { heading: "Conflicting information and history", paragraphs: ["When sources disagree, the conflict may be noted or the most authoritative and recent evidence may be used with appropriate caution. Historical changes are recorded when the underlying information is available; a missing historical record does not mean that no earlier change occurred."] },
     { heading: "Limitations and updates", paragraphs: ["Coverage, timing, translations, source accessibility, and changing programme language create limitations. Records are updated as information is reviewed, without promising a fixed schedule. Readers can report an error or outdated item at info@cbdc.ac."] },
@@ -119,13 +119,13 @@ export const legalDocuments: LegalDocument[] = [
     { heading: "Good-faith requests", paragraphs: ["Please do not use the correction process to request favourable treatment or removal of accurate information. We consider evidence and editorial standards consistently."] },
   ] },
   { slug: "copyright", title: "Copyright & Intellectual Property", description: "Ownership, permitted reuse, attribution, and rights enquiries.", category: "Accessibility and intellectual property", sections: [
-    { heading: "Our content", paragraphs: ["Unless stated otherwise, original text, arrangement, interface design, and other materials created for CBDC LLC are protected by applicable intellectual property law. Ownership of a particular asset should not be assumed where third-party material is identified."] },
+    { heading: "Our content", paragraphs: ["Unless stated otherwise, original text, arrangement, interface design, and other materials created for CBDC LTD are protected by applicable intellectual property law. Ownership of a particular asset should not be assumed where third-party material is identified."] },
     { heading: "Permitted reuse", paragraphs: ["You may link to pages and quote reasonable excerpts for commentary, education, or reporting with accurate attribution and without suggesting endorsement. Do not reproduce a substantial part of the database or republish content as your own without permission."] },
     { heading: "Third-party material", paragraphs: ["Logos, names, datasets, photographs, reports, video, and quoted material may belong to third parties and may be subject to separate licences or terms. Check the relevant source before copying or redistributing them."] },
     { heading: "Rights enquiries", paragraphs: ["For permission requests, attribution questions, or a rights concern, contact info@cbdc.ac with the material, your intended use, and your relationship to the rights holder where relevant."] },
   ] },
   { slug: "accessibility", title: "Accessibility Statement", description: "Our current accessibility approach, known limitations, and how to report a barrier.", category: "Accessibility and intellectual property", sections: [
-    { heading: "Our approach", paragraphs: ["CBDC LLC aims to make its research readable and usable across common browsers, screen sizes, keyboard navigation, and assistive technologies. The interface uses semantic headings, labelled controls, responsive layouts, visible focus styles, and text alternatives where appropriate."] },
+    { heading: "Our approach", paragraphs: ["CBDC LTD aims to make its research readable and usable across common browsers, screen sizes, keyboard navigation, and assistive technologies. The interface uses semantic headings, labelled controls, responsive layouts, visible focus styles, and text alternatives where appropriate."] },
     { heading: "Known limitations", paragraphs: ["Accessibility can vary by page, browser, assistive technology, embedded third-party content, map interaction, and data visualisation. Some complex charts or external media may not provide an equivalent experience in every mode."] },
     { heading: "Report a barrier", paragraphs: ["Email info@cbdc.ac with the page, the barrier, the device or assistive technology involved if relevant, and an accessible alternative way to receive the information if you have one. We will use reports to guide improvements, but do not claim certification or conformance beyond what has been tested."] },
   ] },

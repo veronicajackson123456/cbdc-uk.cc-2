@@ -8,7 +8,7 @@ import { NewsPagination } from "@/components/news-pagination"
 export const revalidate = 120
 
 export const metadata = {
-  title: "News — CBDC LLC",
+  title: "News — CBDC LTD",
   description: "The latest coverage of central bank digital currency initiatives worldwide.",
 }
 
