@@ -4,7 +4,7 @@ import { STATUS_LIST } from "@/lib/cbdc-api"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export const metadata = {
-  title: "Whitepaper — CBDC LLC",
+  title: "Whitepaper — CBDC LTD",
   description: "The CBDC Tracker whitepaper: project goals, CBDC attributes, and platform components.",
 }
 

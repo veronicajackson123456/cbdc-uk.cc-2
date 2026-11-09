@@ -16,14 +16,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://www.cbdc.ac',
-    siteName: 'CBDC LLC',
-    title: 'CBDC LLC — Independent Digital-Currency Research',
+    siteName: 'CBDC LTD',
+    title: 'CBDC LTD — Independent Digital-Currency Research',
     description:
-      'CBDC LLC is an independent digital-currency research and information company publishing plain-English guides, country and project trackers, and updates.',
+      'CBDC LTD is an independent digital-currency research and information company publishing plain-English guides, country and project trackers, and updates.',
   },
-  title: 'CBDC LLC — Independent Digital-Currency Research',
+  title: 'CBDC LTD — Independent Digital-Currency Research',
   description:
-    'CBDC LLC is an independent digital-currency research and information company publishing plain-English guides, country and project trackers, and updates.',
+    'CBDC LTD is an independent digital-currency research and information company publishing plain-English guides, country and project trackers, and updates.',
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',

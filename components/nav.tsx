@@ -112,7 +112,7 @@ export function Nav() {
             <Landmark className="size-4" aria-hidden="true" />
           </span>
           <span className="whitespace-nowrap font-mono text-sm font-semibold tracking-tight text-foreground sm:text-base">
-            CBDC <span className="text-primary">LLC</span>
+            CBDC <span className="text-primary">LTD</span>
           </span>
         </Link>
 

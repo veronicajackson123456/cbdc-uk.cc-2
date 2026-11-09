@@ -7,7 +7,7 @@ export function SponsorSection() {
         </h2>
         <div className="grid gap-3 text-sm leading-7 text-muted-foreground">
           <p>
-            CBDC LLC offers display advertising and sponsored content opportunities to organisations whose products or services are relevant to our readers.
+            CBDC LTD offers display advertising and sponsored content opportunities to organisations whose products or services are relevant to our readers.
           </p>
           <p>
             Sponsored content is clearly labelled. Advertising and sponsorship do not determine or influence the classifications, status assessments or research conclusions presented in the CBDC World Tracker.

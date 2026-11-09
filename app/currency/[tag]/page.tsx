@@ -21,11 +21,11 @@ export const revalidate = 300
 export async function generateMetadata({ params }: { params: Promise<{ tag: string }> }) {
   const { tag } = await params
   const currency = await fetchCurrencyByTag(tag).catch(() => null)
-  if (!currency) return { title: "Currency not found — CBDC LLC" }
+  if (!currency) return { title: "Currency not found — CBDC LTD" }
   return {
     title: currency.digitalCurrency
-      ? `${currency.digitalCurrency} (${currency.country}) — CBDC LLC`
-      : `${currency.country} CBDC project — CBDC LLC`,
+      ? `${currency.digitalCurrency} (${currency.country}) — CBDC LTD`
+      : `${currency.country} CBDC project — CBDC LTD`,
     description: currency.description?.slice(0, 160),
   }
 }

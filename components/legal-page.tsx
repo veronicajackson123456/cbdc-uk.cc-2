@@ -51,7 +51,7 @@ export function LegalPage({ document }: { document: LegalDocument }) {
             </ol>
             <div className="mt-6 border-t border-border/70 pt-5 text-sm">
               <Link href="/legal" className="inline-flex items-center gap-2 text-primary hover:underline">All legal documents <ArrowUpRight className="size-4" aria-hidden="true" /></Link>
-              <a href={`mailto:${companyDetails.email}`} className="mt-3 inline-flex items-center gap-2 text-muted-foreground hover:text-foreground"><Mail className="size-4" aria-hidden="true" /> Contact CBDC LLC</a>
+              <a href={`mailto:${companyDetails.email}`} className="mt-3 inline-flex items-center gap-2 text-muted-foreground hover:text-foreground"><Mail className="size-4" aria-hidden="true" /> Contact CBDC LTD</a>
             </div>
           </div>
         </aside>
