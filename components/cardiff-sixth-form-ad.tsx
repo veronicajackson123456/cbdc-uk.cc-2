@@ -12,7 +12,7 @@ export function CardiffSixthFormAd() {
   return (
     <section
       aria-labelledby="cardiff-sixth-form-ad-heading"
-      aria-label="Sponsored advertisement for Cardiff Sixth Form College"
+      aria-label="Advertisement for Cardiff Sixth Form College"
       className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8"
     >
       <div className="relative isolate overflow-hidden rounded-3xl border border-red-200/20 bg-gradient-to-br from-slate-950 via-slate-900 to-red-950 text-white shadow-2xl shadow-slate-950/25">
@@ -32,7 +32,7 @@ export function CardiffSixthFormAd() {
             />
             <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
               <p className="inline-flex items-center rounded-full border border-red-200/35 bg-red-500/15 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-red-100">
-                Sponsored
+                ADVERTISEMENT
               </p>
               <h2
                 id="cardiff-sixth-form-ad-heading"
